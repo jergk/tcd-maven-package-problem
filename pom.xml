@@ -9,8 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>shared</module>
-        <module>server</module>
+        <module>Client</module>
+        <module>Server</module>
+        <module>Shared</module>
     </modules>
 
     <properties>
@@ -21,7 +22,7 @@
         <dependencies>
             <dependency>
                 <groupId>org.example</groupId>
-                <artifactId>shared</artifactId>
+                <artifactId>Shared</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
         </dependencies>
