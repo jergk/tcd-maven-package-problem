@@ -7,7 +7,7 @@ And to avoid Code duplication I want to share this common code between my Client
 ## The way I approched this Problem:
 I tried to solve this by macking a multi-module Project.
 I extracted the common code into a module and created a module for the Server and the Client.
-then I added the Shared code as a Dependency to the Server and the Client and added both depndencys in the dependency manager of the aggregator pom.
+then I added the Shared code as a Dependency to the Server and the Client and added the shared code to the dependency manager of the aggregator pom.
 
 ## The Problem I encountered:
 now since this is just a small part of the whole Project(hence this simplification) I wanted to structure the modules internaly with java packages.
